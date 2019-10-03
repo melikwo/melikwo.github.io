@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+body {
+	text-align: center;
+	background-image: url("https://wallpaperaccess.com/full/1180734.jpg");
+	background-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 2.0em;
+	width: 6.0em;
+	background-color: white;
+	padding: 10px;
+}
+
+img {
+	line-height: 1.4em;
+	padding: 12px;
+	im
+}
+
+h1,h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-decoration: italic;
+	text-transform: uppercase;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-weight: bold;
+	background:#FFED86;
+	font-size: 36px;
+
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	background-color: #FFED86;
+	font-size: 24px;
+}
+
+#slogan {
+	font-weight: bold;
+	text-decoration: italic;
+}
+
+h3 {
+	text-align: left;
+	font-size: 20px;
+	background:#FFED86;
+	line-height: 1.4em;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 1.0em;
+	font-color: white;
+
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+a {
+	font-size: italic;
+	text-decoration: none;
+}
+
+footer {
+	font-family: 'Raleway', sans-serif;
+	font-size: italic;
+	text-decoration: none;
+	background-color: white;
+}
+
+div {
+	background-color: #FFC8FA;
+}
+
+
