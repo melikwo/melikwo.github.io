@@ -9,27 +9,30 @@
 #left {
 	background-color: pink;
 	border: 1px black solid;
-	float: left;
-    margin: 0 1em;
-	width: 30%;
-	
+	float: right;
+    margin: 0 .5em;
+	width: 30%;	
+	height: 30%
 }
 
 #right {
 	background-color: pink;
 	border: 1px black solid;
-	float: left;
-	margin: 0 1em;
+	float: right;
+	margin: 0 .5em;
 	width: 30%;
+	height: 30%
 }
+
 
 .clearfix:after {
 	visibility: hidden;
 	display: block;
-	font-size: 0;
+	font-size: 4em;
 	content: " ";
 	clear: both;
-	height: 0 4em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
@@ -95,7 +98,7 @@ a {
 }
 
 #contacts {
-	line-height: 6em;
+	line-height: 4em;
 	float: auto;
 }
 
